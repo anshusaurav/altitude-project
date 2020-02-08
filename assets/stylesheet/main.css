@@ -200,6 +200,7 @@ body {
 
 .services .flex {
   justify-content: baseline;
+  align-items: stretch;
 }
 .forth-section .flex {
   width: 50%;
@@ -208,8 +209,7 @@ body {
 }
 .footer .flex {
   width: 80%;
-  margin: 0 10%;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
 }
 .secondary .flex {
@@ -381,24 +381,16 @@ p {
 .header .ham {
   color: white;
   font-size: 20px;
+  z-index: 10;
   display: none;
 }
 .header #toggle {
   display: none;
 }
-.header .menu-links {
-  /*
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;  */
-  text-align: center;
-}
 .header .menu-links a {
   width: 30%;
   color: #ffffff;
   font-size: 18px;
-  margin: 10px;
 }
 .header .ham:checked ~ .menu-links {
   display: inline-block;
@@ -479,6 +471,7 @@ p {
 .services .circle {
   align-self: stretch;
 }
+
 .col-1-4:nth-of-type(-n+3) {
   border-right: 1px solid #ACAFB4;
 }

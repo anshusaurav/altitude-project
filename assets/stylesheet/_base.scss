@@ -122,3 +122,12 @@ p {
         padding: 12px;
      }
 }
+.col_small{
+    a{
+        opacity: 0.5;
+        &:hover{
+            opacity: 1;
+        }
+    }
+
+}

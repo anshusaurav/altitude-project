@@ -118,4 +118,7 @@ p {
 .img-responsive {
     font-size: 0;
     height: 100%;
+    @media all and (max-width: 600px){
+        padding: 12px;
+     }
 }

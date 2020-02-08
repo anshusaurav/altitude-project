@@ -341,10 +341,22 @@ p {
   font-size: 0;
   height: 100%;
 }
+@media all and (max-width: 600px) {
+  .img-responsive {
+    padding: 12px;
+  }
+}
+
+.logo {
+  padding: 0 20px;
+}
 
 .header {
   text-transform: uppercase;
   padding: 70px 0;
+}
+.header li {
+  padding: 0 20px;
 }
 .header a span {
   color: #9295A1;
@@ -401,6 +413,11 @@ p {
   font-weight: 500;
   color: #E4EBF5;
   padding-bottom: 20px;
+}
+@media all and (max-width: 600px) {
+  .fifth-section h2 {
+    font-size: 20px;
+  }
 }
 
 .services h3 {

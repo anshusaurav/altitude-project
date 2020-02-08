@@ -8,10 +8,15 @@
 .flex {
     @extend %flex;
 }
-
+.logo{
+    padding: 0 20px;
+}
 .header {
     text-transform: uppercase;
     padding: 70px 0;
+    li{
+        padding: 0 20px;
+    }
      a{
     
         span {
@@ -79,6 +84,10 @@ h2 {
         font-weight: 500;
         color: #E4EBF5;;
         padding-bottom: 20px;
+        @media all and (max-width: 600px)
+        {
+            font-size: 20px;
+        }
 
     }
 }

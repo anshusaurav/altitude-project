@@ -26,6 +26,8 @@
         strong {
             color: #ffffff;
             font-size: 28px;
+            font-weight: 700;
+            font-family: 'Raleway', sans-serif;
         }
     }
     
@@ -144,8 +146,10 @@ p {
             right: 1px solid #ACAFB4;
         }
     }
-    .book-img{
-        width: 100%;
+    .circle{
+        align-self: stretch;
+    }
+    .book-img{  
     }
 }
 .col-1-4:nth-of-type(-n+3)
@@ -228,4 +232,6 @@ p {
         color: #ACAFB4;
         background: #575B72;
 }
-    
+.img-responsive{
+    width: 100%;
+    }

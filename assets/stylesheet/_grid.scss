@@ -122,6 +122,9 @@
 }
 
 .flex{
+    .services & {
+        justify-content: baseline;
+    }
     .forth-section &{
         width: 50%;
         margin: 0 25%;
